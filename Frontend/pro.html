@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Titan Lock</title>
+  <link rel="stylesheet" href="pro.css">
+</head>
+<body>
+
+  <!-- Titan Lock Section -->
+  <div class="container">
+    <header>
+      <h1>Titan Lock</h1>     
+      <p>Analyze How Strong your Password is Against Quantum Attacks!!</p>
+    </header>
+
+    <main>
+      <div class="form-container">
+        <label for="password">Enter Password:</label>
+        <input type="password" id="password" placeholder="Type your password">
+        <button onclick="checkPasswordStrength()">Analyze</button>
+      </div>
+      <div class="show-password">
+        <input type="checkbox" id="showPassword">
+        <label for="showPassword">Show Password</label>
+      </div>
+
+      <div class="result-container">
+        <h3>Results</h3>
+        <p id="strengthResult">Strength: Not analyzed yet.</p>
+        <p id="quantumSecureStatus">Quantum Security: Not analyzed yet.</p>
+      </div>
+    </main>
+
+    <footer>
+      <p>Created by Sarathy | © 2025</p>
+    </footer>
+  </div>
+
+
+  <script src="pro.js"></script>
+</body>
+</html>
